@@ -4,6 +4,7 @@
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
    }
 
 #header 
@@ -74,7 +75,7 @@
 
 #header #body #img
 {
-    width: 750px;
+    width: 300px;
     height: 300px;
 }
 
@@ -109,7 +110,8 @@ a
 {
     display: flex;
     justify-content: center;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
+    background-color: #c0c0c0;
 }
 
 #body-1 #heading
@@ -150,4 +152,75 @@ a
 {
     font-size: 24px;
 
+}
+
+#body-2-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+#body-2 #main
+{
+    padding: 150px 300px;
+}
+
+#body-2 #quote
+{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#body-2 #author
+{
+    display: flex;
+    justify-content: right;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+#body-3-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+    background-color: #c0c0c0;
+
+}
+
+#body-3
+{
+    width: 800px;
+    height: 200px;
+    background-color: #244a87;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+    gap: 200px;
+}
+
+#body-3 #main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer
+{
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
